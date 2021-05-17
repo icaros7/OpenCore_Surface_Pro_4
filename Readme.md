@@ -5,16 +5,16 @@ Based on [@bigsadan's hackintosh](https://github.com/bigsadan/surface-pro-4-hack
 ## 1. 안내
 OpenCore 0.6.9과 [@bigsadan 씨의 hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)를 기반으로 만들어진 최신 버전의 OpenCore 부트로더 입니다.
 
-macOS 11.3을 사용 하는 경우 구버전의 OpenCore 사용 불능으로 인하여 제작하게 되었습니다.
+macOS 11.3.x를 사용 하는 경우 구버전의 OpenCore 사용 불능으로 인하여 제작하게 되었습니다.
 
 Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 
-**기본 시리얼 넘버 및 UUID가 `0`으로 설정** 되어있으므로 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 앱 등으로 생성 후 사용 가능 합니다.
+<span style="color:red">**기본 시리얼 넘버 및 UUID가 `0`으로 설정**</span> 되어있으므로 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 앱 등으로 생성 후 사용 가능 합니다.
 
 ## 2. 테스트 환경
 다음과 같은 환경에서 테스트 되었습니다.
 
-- macOS 11.3
+- macOS 11.3.x
 - Surface Pro 4
     - i5 6300U
     - 8GB RAM
@@ -36,16 +36,16 @@ Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 ## 1. Information
 The laest version of OpenCore that based on OpenCore 0.6.9 & [@bigsadan's hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
 
-I made this variation, because if you use macOS 11.3, you can't use older version OpenCore.
+I made this variation, because if you use macOS 11.3.x, you can't use older version OpenCore.
 
 You can use this bootloader for hackintosh install & daily-use
 
-**Please change serial number and UUID from `0`** by way of SMBIOS Generator like [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+<span style="color:red">**Please change serial number and UUID from `0`**</span> by way of SMBIOS Generator like [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
 
 ## 2. Tested Environment
 Successfully working following environment.
 
-- macOS 11.3
+- macOS 11.3.x
 - Surface Pro 4
     - i5 6300U
     - 8GB RAM
