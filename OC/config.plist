@@ -78,6 +78,14 @@
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>CPUFriend</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-DATA.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
