@@ -673,7 +673,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>1</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1056,7 +1056,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C17705403J9HMHK8C</string>
+			<string>0</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1068,9 +1068,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro13,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C17T603UGVC1</string>
+			<string>0</string>
 			<key>SystemUUID</key>
-			<string>ABB46DBE-BAA0-497C-954F-A7CF750A4065</string>
+			<string>0</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1089,7 +1089,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-473D31EABEB93F9B</string>
 			<key>BoardSerialNumber</key>
-			<string>C02739300GUHMHK1H</string>
+			<string>0</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1099,7 +1099,7 @@
 			<key>ChassisManufacturer</key>
 			<string>Apple Inc.</string>
 			<key>ChassisSerialNumber</key>
-			<string>C02VG0GJGVC1</string>
+			<string>0</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1125,7 +1125,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02VG0GJGVC1</string>
 			<key>SystemUUID</key>
-			<string>437DDC9C-B7EE-4CC7-A309-6FE685F4DF0F</string>
+			<string>0</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
