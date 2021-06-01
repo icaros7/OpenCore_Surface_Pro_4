@@ -1,11 +1,13 @@
 # OpenCore 0.6.9 for Surface Pro 4
 Based on [@bigsadan's hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
 
+![](screenshot.png)
+
 # 한국어 - Korean
 ## 1. 안내
 OpenCore 0.6.9과 [@bigsadan 씨의 hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)를 기반으로 만들어진 최신 버전의 OpenCore 부트로더 입니다.
 
-macOS 11.3.x를 사용 하는 경우 구버전의 OpenCore 사용 불능으로 인하여 제작하게 되었습니다.
+macOS 11.3+@를 사용 하는 경우 구버전의 OpenCore 사용 불능으로 인하여 제작하게 되었습니다.
 
 Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 
@@ -14,7 +16,7 @@ Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 ## 2. 테스트 환경
 다음과 같은 환경에서 테스트 되었습니다.
 
-- macOS 11.3.x
+- macOS 11.4
 - Surface Pro 4
     - i5 6300U
     - 8GB RAM
@@ -31,12 +33,14 @@ Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 - 보안 정책 : 비활성화 (macOS 11.3 업데이트 이후 SecureBoot 사용 불능한 것으로 추정)
 - MacBook Pro 13인치 논터치바 2016년 후기 기본형 모델 (`MacBookPro13,1`)
 - 기타 부트 옵션 숨김
+- RtWlanU1827.kext 및 RtWlanU.kext 포함
+- CPU 전력관리 옵션이 모두 Macbook Air 급으로 조정
 
 # English - 영어
 ## 1. Information
 The laest version of OpenCore that based on OpenCore 0.6.9 & [@bigsadan's hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
 
-I made this variation, because if you use macOS 11.3.x, you can't use older version OpenCore.
+I made this variation, because if you use macOS 11.3+@, you can't use older version OpenCore.
 
 You can use this bootloader for hackintosh install & daily-use
 
@@ -45,7 +49,7 @@ You can use this bootloader for hackintosh install & daily-use
 ## 2. Tested Environment
 Successfully working following environment.
 
-- macOS 11.3.x
+- macOS 11.4
 - Surface Pro 4
     - i5 6300U
     - 8GB RAM
@@ -60,5 +64,7 @@ Include following configuration
 - Boot Timeout : 5 Sec.
 - Set Default : Enabled
 - SecurityPolicy : Disabled
-- MacBook Pro 13-Inch Late 2016 i5 Model (`MacBookPro13,1`)
+- MacBook Pro 13-Inch Late 2016 i5 non-Touchbar Model (`MacBookPro13,1`)
 - Hide Auxiliary : Enabled
+- Built in RtWlanU1827.kext & RtWlanU.kext
+- Set CPU power management option to Macbook Air class
