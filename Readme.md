@@ -1,6 +1,9 @@
 # OpenCore 0.6.9 for Surface Pro 4
 Based on [@bigsadan's hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
 
+## **사용전 꼭 Platforminfo 값 생성!** [1번 안내](#1.-안내) 참조!
+## **Before use, MUST BE generating Platforminfo value!** Checkout [this section](#1.-Information)!
+
 ![](screenshot.png)
 
 # 한국어 - Korean
@@ -11,7 +14,7 @@ macOS 11.3+@를 사용 하는 경우 구버전의 OpenCore 사용 불능으로 �
 
 Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 
-<span style="color:red">**기본 시리얼 넘버 및 UUID가 `0`으로 설정**</span> 되어있으므로 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 앱 등으로 생성 후 사용 가능 합니다.
+<span style="color:red">**기본 시리얼 넘버 및 UUID가 `임의의 기본값`으로 설정**</span> 되어있으므로 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 앱 등으로 생성 후 사용 가능 합니다. 제 블로그의 [이 글](https://minnote.net/해킨토시_hackintosh/Surface-Pro-4-Hackintosh/#6-1-모델-식별자-및-uuid-변경) 혹은 [오픈코어 공식 가이드](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#platforminfo)를 참조하시면 좋습니다.
 
 ## 2. 테스트 환경
 다음과 같은 환경에서 테스트 되었습니다.
@@ -44,7 +47,7 @@ I made this variation, because if you use macOS 11.3+@, you can't use older vers
 
 You can use this bootloader for hackintosh install & daily-use
 
-<span style="color:red">**Please change serial number and UUID from `0`**</span> by way of SMBIOS Generator like [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+<span style="color:red">**Please change serial number and UUID from `default value`**</span> by way of SMBIOS Generator like [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). You can follow [this guide of OpenCore Official Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#platforminfo).
 
 ## 2. Tested Environment
 Successfully working following environment.
