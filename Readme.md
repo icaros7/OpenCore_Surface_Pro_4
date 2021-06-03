@@ -1,6 +1,11 @@
 # OpenCore 0.6.9 for Surface Pro 4
 Based on [@bigsadan's hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
 
+본 안내는 다음과 같은 언어로 제공 됩니다:  
+This readme is available in the following languages:  
+- 한국어
+- English
+
 ## **사용전 꼭 Platforminfo 값 생성!** [안내](#한국어---korean) 참조!
 ## **Before use, MUST BE generating Platforminfo value!** Checkout [this section](#english)!
 
