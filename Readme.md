@@ -1,8 +1,8 @@
 # OpenCore 0.6.9 for Surface Pro 4
 Based on [@bigsadan's hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
 
-## **사용전 꼭 Platforminfo 값 생성!** [1번 안내](#1.-안내) 참조!
-## **Before use, MUST BE generating Platforminfo value!** Checkout [this section](#1.-Information)!
+## **사용전 꼭 Platforminfo 값 생성!** [안내](#한국어---korean) 참조!
+## **Before use, MUST BE generating Platforminfo value!** Checkout [this section](#english)!
 
 ![](screenshot.png)
 
@@ -39,7 +39,7 @@ Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 - RtWlanU1827.kext 및 RtWlanU.kext 포함
 - CPU 전력관리 옵션이 모두 Macbook Air 급으로 조정
 
-# English - 영어
+# English
 ## 1. Information
 The laest version of OpenCore that based on OpenCore 0.6.9 & [@bigsadan's hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
 
