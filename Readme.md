@@ -43,6 +43,7 @@ Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 - 기타 부트 옵션 숨김
 - RtWlanU1827.kext 및 RtWlanU.kext 포함
 - CPU 전력관리 옵션이 모두 Macbook Air 급으로 조정
+- 부팅 Verbose 활성화
 
 # English
 ## 1. Information
@@ -69,10 +70,11 @@ Include following configuration
 
 - Default Language : Korean (You can choose other language at installation step)
 - Default Keyboard Layout : Qwerty
-- Boot Timeout : 5 Sec.
-- Set Default : Enabled
-- SecurityPolicy : Disabled
+- Boot Timeout: 5 Sec.
+- Set Default: Enabled
+- SecurityPolicy: Disabled
 - MacBook Pro 13-Inch Late 2016 i5 non-Touchbar Model (`MacBookPro13,1`)
-- Hide Auxiliary : Enabled
+- Hide Auxiliary: Enabled
 - Built in RtWlanU1827.kext & RtWlanU.kext
 - Set CPU power management option to Macbook Air class
+- Boot Verbose: Enabled
