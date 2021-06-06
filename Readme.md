@@ -41,7 +41,7 @@ Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 - 보안 정책 : 비활성화 (macOS 11.3 업데이트 이후 SecureBoot 사용 불능한 것으로 추정)
 - MacBook Pro 13인치 논터치바 2016년 후기 기본형 모델 (`MacBookPro13,1`)
 - 기타 부트 옵션 숨김
-- RtWlanU1827.kext 및 RtWlanU.kext 포함
+- RtWlanU1827.kext, RtWlanU.kext, HibernationFixup.kext, USBMap.kext 포함
 - CPU 전력관리 옵션이 모두 Macbook Air 급으로 조정
 - 부팅 Verbose 활성화
 
@@ -75,6 +75,6 @@ Include following configuration
 - SecurityPolicy: Disabled
 - MacBook Pro 13-Inch Late 2016 i5 non-Touchbar Model (`MacBookPro13,1`)
 - Hide Auxiliary: Enabled
-- Built in RtWlanU1827.kext & RtWlanU.kext
+- Built in RtWlanU1827.kext, RtWlanU.kext, HibernationFixup.kext and USBMap.kext
 - Set CPU power management option to Macbook Air class
 - Boot Verbose: Enabled
