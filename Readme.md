@@ -42,7 +42,7 @@ Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 - MacBook Pro 13인치 논터치바 2016년 후기 기본형 모델 (`MacBookPro13,1`)
 - 기타 부트 옵션 숨김
 - RtWlanU1827.kext, RtWlanU.kext, HibernationFixup.kext, USBMap.kext 포함
-- CPU 전력관리 옵션이 모두 Macbook Air 급으로 조정
+- CPU 전력관리 옵션이 적절한 성능 및 배터리 절전을 기준으로 설정 (아이들링 클럭 900Mhz)
 - 부팅 Verbose 활성화
 
 # English
@@ -76,5 +76,5 @@ Include following configuration
 - MacBook Pro 13-Inch Late 2016 i5 non-Touchbar Model (`MacBookPro13,1`)
 - Hide Auxiliary: Enabled
 - Built in RtWlanU1827.kext, RtWlanU.kext, HibernationFixup.kext and USBMap.kext
-- Set CPU power management option to Macbook Air class
+- Set CPU power management option for Balanced Power Saving (Idle Clock 900Mhz) 
 - Boot Verbose: Enabled
