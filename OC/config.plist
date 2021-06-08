@@ -721,7 +721,7 @@
 			<key>PickerVariant</key>
 			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
-			<false/>
+			<true/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
@@ -1039,7 +1039,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v darkwake=1 nv_disable=1 dart=0 -cdfon -disablegfxfirmware  lilucpu=9</string>
+				<string>darkwake=1 nv_disable=1 dart=0 -cdfon -disablegfxfirmware  lilucpu=9</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
