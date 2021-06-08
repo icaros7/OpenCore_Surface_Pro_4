@@ -1,8 +1,8 @@
 # OpenCore 0.6.9 for Surface Pro 4
-Based on [@bigsadan's hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
+[@bigsadan의 hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh) 기반으로 함
 
-- [한국어](https://github.com/icaros7/OpenCore_Surface_Pro_4/blob/opencore-0.6.9/Readme_ko.md)
-- English (This document)
+- 한국어 (이 문서)
+- [English](https://github.com/icaros7/OpenCore_Surface_Pro_4/blob/opencore-0.6.9/Readme.md)
 
 ## **사용전 꼭 Platforminfo 값 생성!** [안내](#1.-안내) 참조!
 
