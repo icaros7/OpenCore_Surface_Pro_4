@@ -17,6 +17,7 @@ The laest version of OpenCore that based on OpenCore 0.6.9 & [@bigsadan's hackin
 |❌|Touch Screen||
 |❌|F/R Camera||
 |❌|Stylus Pen||
+|❌|External SD Card||
 |✅|Audio|with mic|
 |✅|Type Cover|with Multi-Touch Gesture|
 |✅|Hardware Button|Thank you for @billabongbruno|

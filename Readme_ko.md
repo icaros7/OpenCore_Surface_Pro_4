@@ -17,6 +17,7 @@ OpenCore 0.6.9과 [@bigsadan 씨의 hackintosh](https://github.com/bigsadan/surf
 |❌|터치 스크린||
 |❌|전/후 카메라||
 |❌|서피스 펜||
+|❌|외장 SD카드||
 |✅|오디오|마이크 가능|
 |✅|타입 커버|멀티터치 제스처 포함|
 |✅|하드웨어 버튼|@billabongbruno 제공|
