@@ -56,6 +56,6 @@ Include following configuration
 - [How to enable Secure Boot](https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md)
 
 # 5. Special Thanks To
-@acidanthera - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and etc...
-@bigsadan - Offer based version
-@billabongbruno - Fix hardware button (Pwr, Vol) #3
+- @acidanthera - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and etc...
+- @bigsadan - Offer based version
+- @billabongbruno - Fix hardware button (Pwr, Vol) #3

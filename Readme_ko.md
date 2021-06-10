@@ -56,6 +56,6 @@ Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 - [Secure Boot 사용하기 (영어)](https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md)
 
 # 5. Special Thanks To
-@acidanthera - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) 및 기타 등등
-@bigsadan - 기반 버전 제공
-@billabongbruno - 하드웨어 버튼 문제 해결 (Pwr, Vol) #3
+- @acidanthera - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) 및 기타 등등
+- @bigsadan - 기반 버전 제공
+- @billabongbruno - 하드웨어 버튼 문제 해결 (Pwr, Vol) #3
