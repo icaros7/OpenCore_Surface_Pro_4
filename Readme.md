@@ -13,13 +13,13 @@ The laest version of OpenCore that based on OpenCore 0.6.9 & [@bigsadan's hackin
 
 |✅ / ❌|Feature|Etc|
 |:---:|:---|:---|
-|✅|Graphics Acceleration||
-|✅|Audio|with mic|
-|✅|Type Cover||
 |❌|Wi-Fi / Bluetooth|No macOS driver for Marvell AVASTAR|
 |❌|Touch Screen||
 |❌|F/R Camera||
 |❌|Stylus Pen||
+|✅|Audio|with mic|
+|✅|Type Cover|with Multi-Touch Gesture|
+|✅|Hardware Button|Thank you for @billabongbruno|
 
 
 You can use this bootloader for hackintosh install & daily-use
@@ -53,3 +53,8 @@ Include following configuration
 
 # 4. See Also
 - [How to enable Secure Boot](https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md)
+
+# 5. Special Thanks To
+@acidanthera - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and etc...
+@bigsadan - Offer based version
+@billabongbruno - Fix hardware button (Pwr, Vol) #3

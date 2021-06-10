@@ -13,13 +13,13 @@ OpenCore 0.6.9과 [@bigsadan 씨의 hackintosh](https://github.com/bigsadan/surf
 
 |✅ / ❌|기능|기타|
 |:---:|:---|:---|
-|✅|그래픽 가속||
-|✅|오디오|마이크 가능|
-|✅|타입 커버||
 |❌|Wi-Fi / Bluetooth|Marvell AVASTAR 드라이버가 macOS에 없어 불가능|
 |❌|터치 스크린||
 |❌|전/후 카메라||
 |❌|서피스 펜||
+|✅|오디오|마이크 가능|
+|✅|타입 커버|멀티터치 제스처 포함|
+|✅|하드웨어 버튼|@billabongbruno 제공|
 
 
 Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
@@ -53,3 +53,8 @@ Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 
 # 4. 참고
 - [Secure Boot 사용하기 (영어)](https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md)
+
+# 5. Special Thanks To
+@acidanthera - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) 및 기타 등등
+@bigsadan - 기반 버전 제공
+@billabongbruno - 하드웨어 버튼 문제 해결 (Pwr, Vol) #3
