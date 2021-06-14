@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>#OC for Surface Pro 4</key>
-	<string>https://github.com/icaros7/OpenCore_Surface_Pro_4</string>
-	<key>#You MUST BE CHANGE Serial</key>
-	<string>https://github.com/icaros7/OpenCore_Surface_Pro_4</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -627,7 +623,7 @@
 				<key>BundlePath</key>
 				<string>ACPIKeyboard.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Power, Vol Btn for SP4</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
