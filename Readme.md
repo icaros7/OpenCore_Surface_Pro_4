@@ -1,15 +1,13 @@
-# OpenCore 0.6.9 for Surface Pro 4
-Based on [@bigsadan's hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
-
-- [한국어](https://github.com/icaros7/OpenCore_Surface_Pro_4/blob/opencore-0.6.9/Readme_ko.md)
-- English (This document)
-
+# OpenCore 0.7.0 for Surface Pro 4
 ## **Before use, MUST BE generating Platforminfo value!** Checkout [Information](#1.-Information)!
+
+- [한국어](https://github.com/icaros7/OpenCore_Surface_Pro_4/blob/opencore-0.7.0/Readme_ko.md)
+- English (This document)
 
 ![](screenshot.png)
 
 # 1. Information
-The laest version of OpenCore that based on OpenCore 0.6.9 & [@bigsadan's hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
+The laest version of OpenCore that based on OpenCore 0.7.0 & [@bigsadan's patched SSDT](https://github.com/bigsadan/surface-pro-4-hackintosh)
 
 |✅ / ❌|Feature|Etc|
 |:---:|:---|:---|
@@ -45,17 +43,17 @@ Include following configuration
 - Boot Timeout: 5 Sec.
 - Set Default: Enabled (`Ctrl + Enter` to set default)
 - SecurityPolicy: Disabled
-- Hide Auxiliary: Enabled
+- Hide Auxiliary: Enabled (`Space Bar` to see that entry like recovery)
 - Boot Verbose: Disable
 - Apple Hot Key: Enable (`Cmd + V` to boot with Verse mode)
 - MacBook Pro 13-Inch Late 2016 i5 non-Touchbar Model (`MacBookPro13,1`)
-- Built in CPUFriends.kext, USBInjectAll.kext, HibernationFixup.kext and USBMap.kext
+- Built in ACPIKeyboard.kext, CPUFriends.kext, USBInjectAll.kext, HibernationFixup.kext and USBMap.kext
 - Set CPU power management option for Balanced Power Saving (Idle Clock 900Mhz) 
 
 # 4. See Also
-- [How to enable Secure Boot](https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md)
+- [How to enable Secure Boot](https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md) (Hide red bar on boot)
 
 # 5. Special Thanks To
-- @acidanthera - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and etc...
-- @bigsadan - Offer based version
-- @billabongbruno - Fix hardware button (Pwr, Vol) #3
+- [@acidanthera](https://github.com/acidanthera) - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and etc...
+- [@bigsadan](https://github.com/bigsadan) - Offer patched SSDT for Surface
+- [@billabongbruno](https://github.com/billabongbruno) - Fix hardware button (Pwr, Vol) [#3](https://github.com/icaros7/OpenCore_Surface_Pro_4/issues/3)

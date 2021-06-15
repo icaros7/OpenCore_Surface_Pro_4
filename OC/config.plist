@@ -2,21 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>#WARNING - 1</key>
-	<string>This is just a sample. Do NOT try loading it.</string>
-	<key>#WARNING - 2</key>
-	<string>Ensure you understand EVERY field before booting.</string>
-	<key>#WARNING - 3</key>
-	<string>In most cases recommended to use Sample.plist</string>
-	<key>#WARNING - 4</key>
-	<string>Use SampleCustom.plist only for special cases.</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>My custom DSDT</string>
+				<string>DSDT for SP4</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -631,7 +623,7 @@
 				<key>BundlePath</key>
 				<string>ACPIKeyboard.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Power, Vol Btn for SP4</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -696,6 +688,8 @@
 			<key>PanicNoKextDump</key>
 			<false/>
 			<key>PowerTimeoutKernelPanic</key>
+			<false/>
+			<key>ProvideCurrentCpuInfo</key>
 			<false/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
@@ -777,6 +771,8 @@
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 				<key>Name</key>
 				<string>CustomOS</string>
 				<key>Path</key>
@@ -791,6 +787,8 @@
 			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
+			<key>AllowToggleSip</key>
+			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -809,10 +807,10 @@
 			<data></data>
 			<key>PasswordSalt</key>
 			<data></data>
-			<key>SecureBootModel</key>
-			<string>Default</string>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
+			<key>SecureBootModel</key>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -827,6 +825,8 @@
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
 				<false/>
+				<key>Flavour</key>
+				<string>OpenShell:UEFIShell:Shell</string>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Path</key>
@@ -935,6 +935,8 @@
 				<string>HdaCodecDump.efi</string>
 				<key>Enabled</key>
 				<false/>
+				<key>Flavour</key>
+				<string>MemTest</string>
 				<key>Name</key>
 				<string>HdaCodecDump.efi</string>
 				<key>Path</key>
@@ -1064,6 +1066,8 @@
 				<string>ko:0</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
+				<key>ForceDisplayRotationInEFI</key>
+				<integer>0</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1080,10 +1084,11 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+				<string>ForceDisplayRotationInEFI</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
-		<true/>
+		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
 		<key>LegacySchema</key>
@@ -1123,7 +1128,7 @@
 		<false/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseWindows</key>
+			<key>AdviseFeatures</key>
 			<false/>
 			<key>MaxBIOSVersion</key>
 			<false/>
@@ -1313,7 +1318,7 @@
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<false/>
+			<string>Disabled</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
@@ -1338,6 +1343,8 @@
 			<key>AppleBootPolicy</key>
 			<false/>
 			<key>AppleDebugLog</key>
+			<false/>
+			<key>AppleEg2Info</key>
 			<false/>
 			<key>AppleFramebufferInfo</key>
 			<false/>
