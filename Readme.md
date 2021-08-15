@@ -1,13 +1,13 @@
-# OpenCore 0.7.0 for Surface Pro 4
+# OpenCore 0.7.2 for Surface Pro 4
 ## **Before use, MUST BE generating Platforminfo value!** Checkout [Information](#1.-Information)!
 
-- [한국어](https://github.com/icaros7/OpenCore_Surface_Pro_4/blob/opencore-0.7.0/Readme_ko.md)
+- [한국어](https://github.com/icaros7/OpenCore_Surface_Pro_4/blob/opencore-0.7.2/Readme_ko.md)
 - English (This document)
 
 ![](screenshot.png)
 
 # 1. Information
-The laest version of OpenCore that based on OpenCore 0.7.0 & [@bigsadan's patched SSDT](https://github.com/bigsadan/surface-pro-4-hackintosh)
+The laest version of OpenCore that based on OpenCore 0.7.2 & [@bigsadan's patched SSDT](https://github.com/bigsadan/surface-pro-4-hackintosh)
 
 |✅ / ❌|Feature|Etc|
 |:---:|:---|:---|
@@ -28,7 +28,7 @@ You can use this bootloader for hackintosh install & daily-use
 # 2. Tested Environment
 Successfully working following environment.
 
-- macOS 11.4
+- macOS 11.5.2
 - Surface Pro 4
     - i5 6300U
     - 8GB RAM

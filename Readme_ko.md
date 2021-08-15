@@ -1,4 +1,4 @@
-# OpenCore 0.7.0 for Surface Pro 4
+# OpenCore 0.7.2 for Surface Pro 4
 ## **사용전 꼭 Platforminfo 값 생성!** [안내](#1.-안내) 참조!
 
 - 한국어 (이 문서)
@@ -7,7 +7,7 @@
 ![](screenshot.png)
 
 # 1. 안내
-OpenCore 0.7.0과 [@bigsadan 씨의 패치된 SSDT](https://github.com/bigsadan/surface-pro-4-hackintosh)를 기반으로 만들어진 최신 버전의 OpenCore 부트로더 입니다.
+OpenCore 0.7.2과 [@bigsadan 씨의 패치된 SSDT](https://github.com/bigsadan/surface-pro-4-hackintosh)를 기반으로 만들어진 최신 버전의 OpenCore 부트로더 입니다.
 
 |✅ / ❌|기능|기타|
 |:---:|:---|:---|
@@ -28,7 +28,7 @@ Surface Pro 4 모델에 해킨토시 설치 및 실사용 가능 합니다.
 # 2. 테스트 환경
 다음과 같은 환경에서 테스트 되었습니다.
 
-- macOS 11.4
+- macOS 11.5.2
 - Surface Pro 4
     - i5 6300U
     - 8GB RAM
